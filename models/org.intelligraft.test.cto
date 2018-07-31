@@ -17,3 +17,17 @@
  */
 
 namespace org.intelligraft.test
+
+asset User identified by fname {
+  o String fname
+  o String lname
+  o int age 
+
+
+}
+
+transaction createUser {
+  o String fname
+  o String lname
+  o int age 
+}
